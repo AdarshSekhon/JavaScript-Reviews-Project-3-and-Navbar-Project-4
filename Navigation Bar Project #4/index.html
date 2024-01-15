@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        
+        <ul class="links">
+          <li>
+
+
+            <!-- MODIFICATION #1 - Creation of an href that directs to "home.html", which contains its own, unique dropdown menu. 
+              (See home.html for code of home section's navbar) -->
+            <a href="home.html">home</a>
+          </li>
+
+
+          <!-- MODIFICATION #2 - Creation of an href that directs to "about.html", which contains its own, unique dropdown menu. 
+            (See about.html for code of home section's navbar) -->
+          <li>
+            <a href="about.html">about</a>
+          </li>
+
+
+          <!-- MODIFICATION #3 - Creation of an href that directs to "projects.html", which contains its own, unique dropdown menu. 
+            (See projects.html for code of home section's navbar) -->
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+
+
+
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
